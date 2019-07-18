@@ -1,0 +1,50 @@
+{
+  "name": "react-storybook-storyshots-example",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shisama/react-storybook-storyshots-example.git"
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "storyshots",
+    "jest",
+    "test",
+    "example",
+    "sample"
+  ],
+  "author": "Masashi Hirano (@shisama)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shisama/react-storybook-storyshots-example/issues"
+  },
+  "homepage": "https://github.com/shisama/react-storybook-storyshots-example#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
