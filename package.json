@@ -39,6 +39,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
     "@storybook/addon-actions": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
@@ -49,6 +51,7 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "html-webpack-plugin": "^3.2.0",
     "prettier": "^1.18.2",
+    "react-docgen-typescript-loader": "^3.1.0",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "^4.36.1",
