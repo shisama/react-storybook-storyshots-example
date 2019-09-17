@@ -4,7 +4,7 @@
 - プロジェクト内のコンポーネント一覧を見るためにStorybookを使う
 - コンポーネント単位でpropsの値の変更による表示の確認が可能になる
 - Storybookのコードが腐らないようにStoryshotsを使ってスナップショットテストする
-- サンプルコード: [shisama/react-storybook-storyshots-example](https://github.com/shisama/react-storybook-storyshots-example)
+- storybook demo: https://shisama.dev/react-storybook-storyshots-example/public/
 
 ## 今回の例コンポーネント
 
