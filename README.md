@@ -120,14 +120,15 @@ react-docgen-typescript-loaderはTypeScriptで作られたReactコンポーネ�
 ```jsx
 import React from "react";
 
-import { storiesOf } from "@storybook/react";
 import { Like } from "../src/components/Like";
 
-storiesOf("Like", module).add("0", () => (
-  <Like count={0} onClick={() => {}} />
-)).add("1", () => (
-  <Like count={1} onClick={() => {}} />
-));
+export default {
+  title: 'Like'
+};
+
+export const zero = () => <Like count={0} onClick={() => {}} />;
+export const one = () => <Like count={1} onClick={() => {}} />;
+
 ```
 
 前述の`@storybook/cli`によって`.storybook/config.js`が作成されています。  
